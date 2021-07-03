@@ -4,7 +4,7 @@
     "prod": "npm run build && npm run server:prod",
     "build": "vite build && vite build --ssr",
     "server": "ts-node ./server",
-    "server:prod": "cross-env NODE_ENV=production ts-node ./server"
+    "start": "cross-env NODE_ENV=production ts-node ./server"
   },
   "dependencies": {
     "@types/express": "^4.17.12",
