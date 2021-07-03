@@ -18,6 +18,9 @@ function PageLayout({ children }: { children: Children }) {
           <a className="navitem" href="/about">
             About
           </a>
+          <a className="navitem" href="/movies">
+            movies
+          </a>
         </Sidebar>
         <Content>{children}</Content>
       </Layout>
